@@ -8,7 +8,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "public-arena",
+            name: "CommentSystemSDK",
             targets: ["CommentSystemTarget"]
         ),
     ],
@@ -18,14 +18,14 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "public-arena",
-            url: "https://github.com/OBrunoVieira/public-arena/releases/download/1.0.1-alpha06/commentsystem.xcframework.zip",
+            name: "commentsystem",
+            url: "https://github.com/OBrunoVieira/public-arena/releases/download/1.0.1-alpha062/commentsystem.xcframework.zip",
             checksum: "a3640028ca409fed4dd66e00e2f327d083b0fda466c50f1b50415753c57d1559"
         ),
         .target(
             name: "CommentSystemTarget",
             dependencies: [
-                .target(name: "public-arena"),
+                .target(name: "commentsystem"),
                 .product(name: "GoogleSignIn", package: "GoogleSignIn-iOS")
             ]
         )
