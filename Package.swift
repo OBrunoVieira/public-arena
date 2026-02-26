@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "commentsystem",
-            url: "https://github.com/OBrunoVieira/public-arena/releases/download/1.0.1-alpha06/commentsystem.xcframework.zip",
+            url: "https://github.com/OBrunoVieira/public-arena/releases/download/1.0.1-alpha061/commentsystem.xcframework.zip",
             checksum: "a3640028ca409fed4dd66e00e2f327d083b0fda466c50f1b50415753c57d1559"
         ),
         .target(
