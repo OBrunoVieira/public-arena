@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CommentSystemSDK",
+    name: "public-arena",
     platforms: [
         .iOS(.v14)
     ],
