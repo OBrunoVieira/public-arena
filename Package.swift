@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // KMAuth depends on GoogleSignIn natives
         .package(url: "https://github.com/google/GoogleSignIn-iOS", from: "10.0.0"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.0.0")
+        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "12.0.0")
     ],
     targets: [
         .binaryTarget(
